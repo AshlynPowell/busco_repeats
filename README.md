@@ -1,6 +1,6 @@
 # Insect Genome Repetitive Elements
 
-`condense_buscos.py` complies BUSCO sequences from a given assembly into a single file. The script takes in an accession number, opens each sequence file in the associated BUSCO results, and writes each sequence to an outfile formatted for BLAST (if a multi-copy BUSCO, only the first sequence is written to the file).
+`condense_buscos.py` compiles BUSCO sequences from a given assembly into a single file. The script takes in an accession number, opens each sequence file in the associated BUSCO results, and writes each sequence to an outfile formatted for BLAST (if a multi-copy BUSCO, only the first sequence is written to the file).
 
 `busco_blast_bokeh.sh` and `protein_blast.sh` are scripts that run their respective blast calls and bokeh visualization scripts. Comments in the scripts describe command line arguements that should be passed in to each script.
 
