@@ -6,4 +6,4 @@
 
 `visualize_busco_blast.sh` and `visualize_protein_blast.sh` are scripts that each use bokeh to visualize data in multiple ways (histogram, lineplot, table). `visualize_protein_blast.sh` outputs a summary of hits to `TE_regulation_genes.csv`
 
-`genomes.txt` contains a list of all 441 insect genome assemblies used in this study. You can run the other scripts over this list, e.g. for i in `cat genomes.txt; do python visualize_busco_blast.py $i; done`
+`genomes.txt` contains a list of all 441 insect genome assemblies used in this study. You can run the other scripts over this list, e.g. `for i in cat genomes.txt; do python visualize_busco_blast.py $i; done`
